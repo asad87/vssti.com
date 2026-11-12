@@ -1,0 +1,25 @@
+{
+  "name": "vssti",
+  "version": "1.0.0",
+  "description": "VSSTI (Vector Safety Solutions and Technical Training Institute) Official Full-Stack Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_endpoints.js"
+  },
+  "keywords": [
+    "vssti",
+    "safety-training",
+    "osha",
+    "iosh",
+    "iso45001"
+  ],
+  "author": "VSSTI Development Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1"
+  }
+}
